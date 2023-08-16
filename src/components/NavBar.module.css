@@ -1,0 +1,20 @@
+nav {
+  padding: 2rem 4rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  padding: 0;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #4f4f4f;
+  text-transform: uppercase;
+}
+
+.navLink:hover {
+  font-weight: 700;
+}

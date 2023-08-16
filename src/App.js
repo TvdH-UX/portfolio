@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { MijnWerk } from "./pages/MijnWerk";
+import { OverMij } from "./pages/OverMij";
+import { NodeScape } from "./pages/NodeScape";
+import { TalentDex } from "./pages/TalentDex";
+import { Trivia } from "./pages/Trivia";
+import { NavBar } from "./components/NavBar";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/mijnwerk" element={<MijnWerk />} />
+        <Route path="/mijnwerk/nodescape" element={<NodeScape />} />
+        <Route path="/mijnwerk/talentdex" element={<TalentDex />} />
+        <Route path="/mijnwerk/trivia" element={<Trivia />} />
+        <Route path="/overmij" element={<OverMij />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 
