@@ -1,4 +1,4 @@
-import "./App.css";
+import styles from "./App.module.css";
 import { Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { MijnWerk } from "./pages/MijnWerk";
@@ -11,7 +11,7 @@ import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className={styles.body}>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,7 +22,7 @@ function App() {
         <Route path="/overmij" element={<OverMij />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 
