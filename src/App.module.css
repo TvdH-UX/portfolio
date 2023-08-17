@@ -4,9 +4,20 @@
   color: #4f4f4f;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1ea;
+}
+
 .body {
   display: flex;
   flex-direction: column;
+  gap: 3rem;
   min-height: 100vh;
-  background-color: #f1f1ea;
+}
+
+::selection {
+  background-color: #a1d3af;
 }

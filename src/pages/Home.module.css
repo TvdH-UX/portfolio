@@ -1,0 +1,62 @@
+.container {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.mainSection {
+  padding-top: 3rem;
+}
+
+.mainSection h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.greeting {
+  font-weight: 400;
+}
+
+.name {
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.name:hover {
+  background-color: #a1d3af;
+}
+
+.mainSection h2 {
+  padding-top: 1rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.clickThroughLinks {
+  padding-top: 3rem;
+}
+
+.clickThroughLink {
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.clickThroughLink:hover {
+  background-color: #a1d3af;
+  padding-left: 0.3rem;
+  padding-right: 1.3rem;
+}
+
+.clickThroughLink span {
+  font-weight: 300;
+}
+
+.photoSection {
+  height: 320px;
+}
+
+.photoSection img {
+  height: 320px;
+}

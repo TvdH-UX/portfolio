@@ -11,17 +11,19 @@ import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <div className={styles.body}>
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/mijnwerk" element={<MijnWerk />} />
-        <Route path="/mijnwerk/nodescape" element={<NodeScape />} />
-        <Route path="/mijnwerk/talentdex" element={<TalentDex />} />
-        <Route path="/mijnwerk/trivia" element={<Trivia />} />
-        <Route path="/overmij" element={<OverMij />} />
-      </Routes>
-      <Footer />
+    <div className={styles.container}>
+      <div className={styles.body}>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/mijnwerk" element={<MijnWerk />} />
+          <Route path="/mijnwerk/nodescape" element={<NodeScape />} />
+          <Route path="/mijnwerk/talentdex" element={<TalentDex />} />
+          <Route path="/mijnwerk/trivia" element={<Trivia />} />
+          <Route path="/overmij" element={<OverMij />} />
+        </Routes>
+        <Footer />
+      </div>
     </div>
   );
 }
