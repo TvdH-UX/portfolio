@@ -12,7 +12,8 @@
 
 .mainSection h1 {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 3rem;
+  line-height: 120%;
 }
 
 .greeting {
@@ -36,7 +37,7 @@
 .roles h2 {
   padding-top: 1rem;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .clickThroughLinks {
@@ -65,10 +66,4 @@
 
 .photoSection img {
   height: 320px;
-  filter: grayscale(100%);
-  transition: 0.5s;
-}
-
-.photoSection img:hover {
-  filter: grayscale(0%);
 }

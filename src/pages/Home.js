@@ -34,7 +34,9 @@ export function Home() {
       </div>
 
       <div className={styles.photoSection}>
-        <img src={photoThomas} alt="Thomas" />
+        <Link to="/overmij">
+          <img src={photoThomas} alt="Thomas" />
+        </Link>
       </div>
     </div>
   );

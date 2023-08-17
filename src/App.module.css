@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 16rem;
   background-color: #f1f1ea;
   z-index: 2;
 }
@@ -17,7 +18,7 @@
   flex-direction: column;
   gap: 3rem;
   min-height: 100vh;
-  width: 960px;
+  width: 1440px;
 }
 
 ::selection {
@@ -25,12 +26,12 @@
 }
 
 .grain::after {
-  animation: grain 10s steps(10) infinite;
+  animation: grain 12s steps(10) infinite;
   background-image: url("./images/Grain.png");
   content: "";
   height: 300%;
   left: -50%;
-  opacity: 0.3;
+  opacity: 0.7;
   position: fixed;
   top: -100%;
   width: 300%;
