@@ -44,6 +44,11 @@
   padding-top: 3rem;
 }
 
+.clickThroughLinks ul {
+  display: flex;
+  gap: 2rem;
+}
+
 .clickThroughLink {
   text-decoration: none;
   font-weight: 500;

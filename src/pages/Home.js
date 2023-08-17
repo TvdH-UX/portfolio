@@ -18,15 +18,15 @@ export function Home() {
         <div className={styles.clickThroughLinks}>
           <ul>
             <li>
-              <Link to="/overmij" className={styles.clickThroughLink}>
-                {" "}
-                {">"} <span>Meer over mij</span>
-              </Link>
-            </li>
-            <li>
               <Link to="/mijnwerk" className={styles.clickThroughLink}>
                 {" "}
                 {">"} <span>Bekijk mijn werk</span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/overmij" className={styles.clickThroughLink}>
+                {" "}
+                {">"} <span>Meer over mij</span>
               </Link>
             </li>
           </ul>

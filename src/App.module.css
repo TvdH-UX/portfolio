@@ -72,3 +72,12 @@
     transform: translate(-10%, 10%);
   }
 }
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
