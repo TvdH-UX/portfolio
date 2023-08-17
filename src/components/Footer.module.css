@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1.2rem;
   position: fixed;
   left: 0;
   bottom: 0;
-  padding: 1rem;
+  padding-bottom: 1.5rem;
   width: 100%;
   background-color: transparent;
   color: #4f4f4f;
@@ -15,6 +15,21 @@
 
 .cta {
   text-transform: uppercase;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.socialLinks a {
+  height: 40px;
+}
+
+.socialIconLink {
+  width: 40px;
+  height: 40px;
 }
 
 .copyright {
