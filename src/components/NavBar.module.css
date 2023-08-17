@@ -4,17 +4,21 @@ nav {
 
 ul {
   display: flex;
+  align-items: center;
   list-style: none;
   gap: 3rem;
   padding: 0;
 }
 
 .navLink {
+  display: flex;
   text-decoration: none;
-  color: #4f4f4f;
   text-transform: uppercase;
+  transition: 0.2s;
 }
 
 .navLink:hover {
+  display: inline-block;
+  border: none;
   font-weight: 700;
 }
