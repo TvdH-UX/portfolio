@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   gap: 3rem;
+  width: 100%;
 }
 
 .mainSection {
@@ -27,7 +28,12 @@
   background-color: #a1d3af;
 }
 
-.mainSection h2 {
+.roles {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.roles h2 {
   padding-top: 1rem;
   font-weight: 400;
   font-size: 1.1rem;
@@ -59,4 +65,10 @@
 
 .photoSection img {
   height: 320px;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.photoSection img:hover {
+  filter: grayscale(0%);
 }
