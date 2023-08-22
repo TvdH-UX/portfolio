@@ -17,7 +17,7 @@ function App() {
         <div className={styles.body}>
           <NavBar />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/portfolio" element={<Home />} />
             <Route path="/mijnwerk" element={<MijnWerk />} />
             <Route path="/mijnwerk/nodescape" element={<NodeScape />} />
             <Route path="/mijnwerk/talentdex" element={<TalentDex />} />

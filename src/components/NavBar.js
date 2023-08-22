@@ -7,7 +7,7 @@ export function NavBar() {
       <nav>
         <ul className={styles.navigationBar}>
           <li>
-            <NavLink to="/" className={styles.navLink}>
+            <NavLink to="/portfolio" className={styles.navLink}>
               Home
             </NavLink>
           </li>
