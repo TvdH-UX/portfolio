@@ -15,6 +15,7 @@ export function Project({
   projectSubheader3,
   projectP3,
   projectPhoto1,
+  previousProject,
   nextProject,
 }) {
   return (
@@ -29,8 +30,11 @@ export function Project({
           <h2>Tools:</h2>
           <p>{projectTools}</p>
           <br />
-          <h2>Link:</h2>
-          <p>{projectLink}</p>
+          {projectLink && (
+            <a href={projectLink} target="_blank">
+              {">"} Link
+            </a>
+          )}
         </div>
         <div className={styles.projectPhoto}>
           <img src={projectPhoto} alt={projectTitle + " preview photo"} />
@@ -43,10 +47,21 @@ export function Project({
         <img src={projectPhoto1} alt="" />
         <h2 className={styles.subheader}>{projectSubheader2}</h2>
         <p>{projectP2}</p>
+        {projectSubheader3 && (
+          <>
+            <h2 className={styles.subheader}>{projectSubheader3}</h2>
+            <p>{projectP3}</p>
+          </>
+        )}
       </div>
       <div className={styles.navSection}>
+        <Link to={`/mijnwerk/${previousProject}`}>
+          <h3 className={styles.previous}>
+            {previousProject} {"<"}
+          </h3>
+        </Link>
         <Link to={`/mijnwerk/${nextProject}`}>
-          <h3>
+          <h3 className={styles.next}>
             {">"} {nextProject}
           </h3>
         </Link>

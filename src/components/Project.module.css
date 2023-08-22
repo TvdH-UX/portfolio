@@ -26,12 +26,26 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem 0;
-  gap: 6rem;
+  gap: 2rem;
 }
 
 .headerSection img {
-  height: 300px;
+  height: 260px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.headerSection a {
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.headerSection a:hover {
+  background-color: #a1d3af;
+  padding-left: 0.3rem;
+  padding-right: 1.3rem;
 }
 
 .contentSection {
@@ -49,10 +63,14 @@
   align-self: center;
   width: 600px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
 }
 
 .navSection {
-  margin-top: 1rem;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  margin-top: 4rem;
   align-self: flex-end;
 }
 
@@ -60,4 +78,17 @@
   font-size: 1.5rem;
   font-weight: 600;
   text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.next:hover {
+  background-color: #a1d3af;
+  padding-left: 0.3rem;
+  padding-right: 1.3rem;
+}
+
+.previous:hover {
+  background-color: #a1d3af;
+  padding-left: 1.3rem;
+  padding-right: 0.3rem;
 }
