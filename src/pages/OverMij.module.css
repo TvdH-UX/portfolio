@@ -1,7 +1,6 @@
 .container {
   display: flex;
   height: 100%;
-  /* overflow-y: auto; */
   gap: 6rem;
 }
 
@@ -26,4 +25,19 @@
   border-radius: 3px;
   width: 240px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+@media all and (max-width: 420px) {
+  .container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .mainSection h1 {
+    font-size: 2rem;
+  }
+
+  .photoSection {
+    align-self: center;
+  }
 }
