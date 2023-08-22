@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5a656a26.css",
-    "main.js": "/portfolio/static/js/main.80aeaf59.js",
-    "static/media/NodeScapeSingleSignOn.png": "/portfolio/static/media/NodeScapeSingleSignOn.233a4a6f02795692a488.png",
-    "static/media/Thomas.png": "/portfolio/static/media/Thomas.66b348f60f472ec24082.png",
-    "static/media/Grain.png": "/portfolio/static/media/Grain.68f228451d07b311f99d.png",
-    "static/media/TalentDexFeedbackGeven.png": "/portfolio/static/media/TalentDexFeedbackGeven.99eaf0880862f332e118.png",
-    "static/media/ThomasHeadshot.png": "/portfolio/static/media/ThomasHeadshot.4b26f89c1a62a22fa032.png",
-    "static/media/TalentDexPreview.png": "/portfolio/static/media/TalentDexPreview.f10fc87424c5e1974564.png",
-    "static/media/TriviaVoorkeuren.png": "/portfolio/static/media/TriviaVoorkeuren.1d52ec160bb96cc7fdcd.png",
-    "static/media/NodeScapePreview.png": "/portfolio/static/media/NodeScapePreview.8541a102bd944328e676.png",
-    "static/media/TriviaPreview.png": "/portfolio/static/media/TriviaPreview.44cdfe6b29f0f0ef50f6.png",
-    "index.html": "/portfolio/index.html",
-    "main.5a656a26.css.map": "/portfolio/static/css/main.5a656a26.css.map",
-    "main.80aeaf59.js.map": "/portfolio/static/js/main.80aeaf59.js.map"
+    "main.css": "/static/css/main.16a4015c.css",
+    "main.js": "/static/js/main.7d8f0b80.js",
+    "static/media/NodeScapeSingleSignOn.png": "/static/media/NodeScapeSingleSignOn.233a4a6f02795692a488.png",
+    "static/media/Thomas.png": "/static/media/Thomas.66b348f60f472ec24082.png",
+    "static/media/Grain.png": "/static/media/Grain.68f228451d07b311f99d.png",
+    "static/media/TalentDexFeedbackGeven.png": "/static/media/TalentDexFeedbackGeven.99eaf0880862f332e118.png",
+    "static/media/ThomasHeadshot.png": "/static/media/ThomasHeadshot.4b26f89c1a62a22fa032.png",
+    "static/media/TalentDexPreview.png": "/static/media/TalentDexPreview.f10fc87424c5e1974564.png",
+    "static/media/TriviaVoorkeuren.png": "/static/media/TriviaVoorkeuren.1d52ec160bb96cc7fdcd.png",
+    "static/media/NodeScapePreview.png": "/static/media/NodeScapePreview.8541a102bd944328e676.png",
+    "static/media/TriviaPreview.png": "/static/media/TriviaPreview.44cdfe6b29f0f0ef50f6.png",
+    "index.html": "/index.html",
+    "main.16a4015c.css.map": "/static/css/main.16a4015c.css.map",
+    "main.7d8f0b80.js.map": "/static/js/main.7d8f0b80.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a656a26.css",
-    "static/js/main.80aeaf59.js"
+    "static/css/main.16a4015c.css",
+    "static/js/main.7d8f0b80.js"
   ]
 }
