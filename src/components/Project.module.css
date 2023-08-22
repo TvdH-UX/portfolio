@@ -104,3 +104,24 @@
   padding-left: 1.3rem;
   padding-right: 0.3rem;
 }
+
+@media all and (max-width: 420px) {
+  .headerSection {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+  }
+
+  .contentSection img {
+    width: auto;
+    height: 150px;
+    margin-top: 1rem;
+  }
+
+  .navSection {
+    margin-top: 2rem;
+  }
+
+  .navSection h3 {
+    font-size: 1.2rem;
+  }
+}
