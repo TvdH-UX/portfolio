@@ -2,7 +2,6 @@
   align-self: center;
   display: flex;
   justify-content: space-between;
-  overflow-y: auto;
   gap: 3rem;
   width: 100%;
 }
@@ -74,7 +73,38 @@
   height: 320px;
 }
 
-@media all and (max-width: 420px) {
+@media all and (max-width: 1000px) {
+  .container {
+    align-self: center;
+    display: flex;
+    gap: 0rem;
+    width: 100%;
+    /* overflow-y: scroll; */
+  }
+
+  .photoSection {
+    margin: auto;
+    height: 240px;
+  }
+
+  .photoSection img {
+    height: 100%;
+  }
+
+  .mainSection h1 {
+    font-size: 2rem;
+  }
+
+  .roles h2 {
+    font-size: 1rem;
+  }
+
+  .clickThroughLinks {
+    padding-top: 2rem;
+  }
+}
+
+@media all and (max-width: 800px) {
   .container {
     align-self: center;
     display: flex;

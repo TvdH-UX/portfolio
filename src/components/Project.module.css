@@ -105,7 +105,7 @@
   padding-right: 0.3rem;
 }
 
-@media all and (max-width: 420px) {
+@media all and (max-width: 800px) {
   .headerSection {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto;

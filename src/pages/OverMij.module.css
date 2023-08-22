@@ -27,7 +27,7 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-@media all and (max-width: 420px) {
+@media all and (max-width: 800px) {
   .container {
     flex-direction: column;
     gap: 4rem;
