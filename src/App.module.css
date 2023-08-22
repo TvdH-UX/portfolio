@@ -5,6 +5,7 @@
 }
 
 .container {
+  margin: auto;
   width: 100%;
   background-color: #f1f1ea;
   z-index: 2;
