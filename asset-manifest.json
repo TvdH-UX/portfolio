@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.16a4015c.css",
-    "main.js": "/static/js/main.7d8f0b80.js",
+    "main.js": "/static/js/main.f73298c4.js",
     "static/media/NodeScapeSingleSignOn.png": "/static/media/NodeScapeSingleSignOn.233a4a6f02795692a488.png",
     "static/media/Thomas.png": "/static/media/Thomas.66b348f60f472ec24082.png",
     "static/media/Grain.png": "/static/media/Grain.68f228451d07b311f99d.png",
@@ -13,10 +13,10 @@
     "static/media/TriviaPreview.png": "/static/media/TriviaPreview.44cdfe6b29f0f0ef50f6.png",
     "index.html": "/index.html",
     "main.16a4015c.css.map": "/static/css/main.16a4015c.css.map",
-    "main.7d8f0b80.js.map": "/static/js/main.7d8f0b80.js.map"
+    "main.f73298c4.js.map": "/static/js/main.f73298c4.js.map"
   },
   "entrypoints": [
     "static/css/main.16a4015c.css",
-    "static/js/main.7d8f0b80.js"
+    "static/js/main.f73298c4.js"
   ]
 }
