@@ -2,6 +2,7 @@
   align-self: center;
   display: flex;
   justify-content: space-between;
+  overflow-y: auto;
   gap: 3rem;
   width: 100%;
 }
@@ -12,7 +13,7 @@
 
 .mainSection h1 {
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2.8rem;
   line-height: 120%;
 }
 
@@ -71,4 +72,36 @@
 
 .photoSection img {
   height: 320px;
+}
+
+@media all and (max-width: 420px) {
+  .container {
+    align-self: center;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0rem;
+    width: 100%;
+    /* overflow-y: scroll; */
+  }
+
+  .photoSection {
+    margin: auto;
+    height: 240px;
+  }
+
+  .photoSection img {
+    height: 100%;
+  }
+
+  .mainSection h1 {
+    font-size: 2rem;
+  }
+
+  .roles h2 {
+    font-size: 1rem;
+  }
+
+  .clickThroughLinks {
+    padding-top: 2rem;
+  }
 }

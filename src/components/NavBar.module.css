@@ -31,3 +31,9 @@ nav {
   border: none;
   font-weight: 700;
 }
+
+@media all and (max-width: 420px) {
+  .navigationBar {
+    justify-content: center;
+  }
+}

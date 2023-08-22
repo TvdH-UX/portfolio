@@ -37,3 +37,26 @@
 .copyright {
   font-size: 0.8rem;
 }
+
+@media all and (max-width: 420px) {
+  .cta {
+    font-size: 0.8rem;
+  }
+
+  .socialLinks {
+    gap: 0.6rem;
+  }
+
+  .socialLinks a {
+    height: 30px;
+  }
+
+  .socialIconLink {
+    width: 30px;
+    height: 30px;
+  }
+
+  .copyright {
+    font-size: 0.6rem;
+  }
+}

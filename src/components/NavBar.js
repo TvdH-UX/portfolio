@@ -5,7 +5,7 @@ export function NavBar() {
   return (
     <div className={styles.navContainer}>
       <nav>
-        <ul>
+        <ul className={styles.navigationBar}>
           <li>
             <NavLink to="/" className={styles.navLink}>
               Home

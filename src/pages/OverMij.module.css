@@ -1,5 +1,7 @@
 .container {
   display: flex;
+  height: 100%;
+  /* overflow-y: auto; */
   gap: 6rem;
 }
 
