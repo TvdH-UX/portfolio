@@ -2,6 +2,7 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
   color: #4f4f4f;
+  cursor: none;
 }
 
 .container {
@@ -79,6 +80,25 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.cursor {
+  background-color: #a1d3af;
+  opacity: 0.7;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.cursor.dot {
+  background: #a1d3af;
+  transition: top 0.05s, left 0.05s, width 0.5s, height 0.5s;
+  transition-timing-function: ease-out;
+  z-index: 1;
 }
 
 @media all and (max-width: 1000px) {
