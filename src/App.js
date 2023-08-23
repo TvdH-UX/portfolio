@@ -1,5 +1,5 @@
 import styles from "./App.module.css";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, HashRouter } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { MijnWerk } from "./pages/MijnWerk";
 import { OverMij } from "./pages/OverMij";
@@ -17,7 +17,7 @@ function App() {
         <div className={styles.body}>
           <NavBar />
           <Routes>
-            <Route path="/portfolio" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/mijnwerk" element={<MijnWerk />} />
             <Route path="/mijnwerk/nodescape" element={<NodeScape />} />
             <Route path="/mijnwerk/talentdex" element={<TalentDex />} />
